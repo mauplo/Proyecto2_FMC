@@ -18,7 +18,7 @@ Este programa es reconocedor de enunciados while bien formados en Kotlin. Está 
 
 ## Requisitos
 
-- **Python 3.x:** Se recomienda Python 3.6 o superior.
+- **Python 3.10:** Se recomienda Python 3.10 o superior.
 - **Tkinter:** Este módulo, utilizado para la interfaz gráfica, viene generalmente incluido en la instalación estándar de Python.
 - **Librerías estándar:** `re` y `collections` (no se requiere instalación adicional).
 
