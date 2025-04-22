@@ -1,0 +1,52 @@
+while (x < y) {
+
+    while (4 == 2) {
+
+        while (z > a) {
+
+        }
+
+        while (b == d) {
+
+        }
+
+    }
+
+}
+
+while (x <= z) {
+
+}
+
+while (a > b) {
+
+    while (f != 5) {
+
+    }
+
+}
+
+while (3 >= 2) {}
+
+while (c != d) {
+}
+
+while (m <= n) {
+
+}
+
+while (1 < x) {
+
+}
+
+while (y >= 0) {
+
+}
+
+while (g == h) {
+
+}
+
+while (k != 9) {
+
+}
