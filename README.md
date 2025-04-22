@@ -4,7 +4,7 @@
 
 Este programa es reconocedor de enunciados while bien formados en Kotlin. Está diseñado para:
 
-- **Identificar bloques while:** Detecta y bloques while con operadores `<, >, ==, >=, <=, !=`, variables de un caracter `[a-z]` y constantes de un dígito `[0-9]`
+- **Identificar bloques while:** Detecta y cuenta bloques while con operadores `<, >, ==, >=, <=, !=`, variables de un caracter `[a-z]` y constantes de un dígito `[0-9]`
 - **Clasificar:**
 - **Generar estadísticas:**
 - **Rechazar bloques inválidos:**
