@@ -3,11 +3,12 @@
 # 2. Seleccionar un archivo .txt con las declaraciones cuando aparezca la ventana.
 # 3. El script mostrará los resultados en la terminal.
 
-# Autores: Axel Castro Lara                 204092
-#          Rafael Harry Gomar Dawson        208999
-#          Emilio González Acosta           207911
-#          Mauricia Peña López Ostolaza     205688
-#          Luis Fernando Rodríguez Retama   208047
+# Autores:
+#   Luis Fernando Rodríguez Retama   208047
+#   Mauricia Peña López Ostolaza     205688
+#   Axel Castro Lara                 204092
+#   Rafael Harry Gomar Dawson        208999
+#   Emilio González Acosta           207911
 
 ### IMPORTACIÓN DE PAQUETES ###
 import re  # Para manejo de expresiones regulares
@@ -17,16 +18,17 @@ from collections import (
     defaultdict,
 )  # Para evitar KeyErrors al contar operadores lógicos
 
+
 ### carga_archivo: función para cargar el archivo a evaluar ###
 def carga_archivo():
-    """ 
+    """
     Abre un diálogo para seleccionar un archivo .txt y retorna su contenido como cadena.
-    
+
     Returns:
-        str | None: El contenido del archivo si fue seleccionado y leído correctamente, 
+        str | None: El contenido del archivo si fue seleccionado y leído correctamente,
                     o None en caso de error o si no se seleccionó archivo.
     """
-    
+
     ventana = tk.Tk()  # creamos la ventana principal de la "aplicación" para la UI
     ventana.withdraw()  # no queremos enseñar la ventana, sólo el diálogo que pide el archivo
     path_archivo = filedialog.askopenfilename(
@@ -55,14 +57,14 @@ def carga_archivo():
 def tokenizar(cadena: str) -> list:
     """
     Divide una cadena en tokens utilizando expresiones regulares.
-    
+
     Args:
         cadena (str): Cadena a analizar.
-    
+
     Returns:
         list: Lista de tokens encontrados (palabras clave, paréntesis, llaves, etc.).
     """
-    
+
     # primero se limpian los espacios
     cadena = re.sub(r"\s+", "", cadena)
     # separa buscando 'while's, paréntesis y llaves
@@ -73,19 +75,19 @@ def tokenizar(cadena: str) -> list:
 
 
 ### parseWhiles: revisa anidación de whiles con un autómata de pila ###
-def parseWhiles(tokens: list) -> tuple[int | list]:
+def parseWhiles(tokens: list) -> tuple[int, list]:
     """
     Valida la estructura de ciclos while usando un autómata de pila.
-    
+
     Args:
         tokens (list): Lista de tokens generados a partir de la entrada.
-    
+
     Returns:
         tuple:
             int: Número de bloques while encontrados correctamente anidados (-1 si hay error).
             list: Lista de expresiones lógicas encontradas en las condiciones de los while.
     """
-    
+
     contWhiles = 0  # para contar el número de whiles
     expLogicas = []  # para guardar lo que deberían ser comparaciones lógicas
     # el autómata de pila es de un solo estado y aceptará por pila vacía
@@ -131,17 +133,17 @@ def parseWhiles(tokens: list) -> tuple[int | list]:
 def validar(cadena) -> bool:
     """
     Ejecuta el análisis sintáctico y semántico sobre una cadena de código fuente.
-    
+
     Verifica si las estructuras while están bien formadas y si las expresiones lógicas
     dentro de ellas son válidas. Muestra estadísticas sobre variables y operadores.
-    
+
     Args:
         cadena (str): Código fuente a analizar.
-    
+
     Returns:
         bool: True si el código es válido, False si hay errores de sintaxis o lógica.
     """
-    
+
     # tokenización
     tokens = tokenizar(cadena)
     # parseo del autómata de pila y obtención de enunciados lógicos a revisar
@@ -181,7 +183,7 @@ def validar(cadena) -> bool:
 
 
 ### EJECUCIÓN PRINCIPAL###
-if _name_ == "_main_":
-    contenido = carga_archivo()
-    if contenido:
-        validar(contenido)
+
+contenido = carga_archivo()
+validar(contenido)
+
