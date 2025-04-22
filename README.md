@@ -18,7 +18,7 @@ Este programa es reconocedor de enunciados while bien formados en Kotlin. Está 
 
 ## Requisitos
 
-- **Python 3.10:** Se recomienda Python 3.10 o superior.
+- **Python 3.9:** Se necesita python 3.9 o superior por la función `def parseWhiles(tokens: list) -> tuple[int, list]:`
 - **Tkinter:** Este módulo, utilizado para la interfaz gráfica, viene generalmente incluido en la instalación estándar de Python.
 - **Librerías estándar:** `re` y `collections` (no se requiere instalación adicional).
 
