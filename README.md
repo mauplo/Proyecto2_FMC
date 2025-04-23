@@ -30,24 +30,24 @@ El siguiente programa es un reconocedor de enunciados while bien formados en Kot
     ```
    (Si no sirve ese comando, intentar: python3 --version)
 
-2. **Comproebar Tkinter:** Ejecutar el siguiente comando para confirmar que Tkinter está disponible:
+2. **Comprobar Tkinter:** Ejecutar el siguiente comando para confirmar que Tkinter está disponible:
     ```bash
     python -m tkinter
     ```
     Si se abre una ventana de prueba, Tkinter está correctamente instalado.
-3. **Descarga el código:** Clonar o descargar el repositorio que contiene el programa.
+3. **Descargar el código:** Clonar o descargar el repositorio que contiene el programa.
 
 ## Cómo Ejecutarlo
 
 Una vez descargado el archivo [main.py](main.py) 
 
 1. **Abrir la terminal:** Navegar hasta el directorio donde se encuentra el archivo del programa 
-2. **Ejecuta el programa:** Ingresar el siguiente comando en la terminal:
+2. **Ejecutar el programa:** Ingresar el siguiente comando en la terminal:
     ```bash
     python main.py
     ```
-3. **Selecciona el archivo:** Al iniciarse, se abrirá una ventana emergente solicitando seleccionar un archivo de texto (`.txt`) que contenga los datos de entrada (conjunto de bloques while sintácticamente correctos). Se pueden usar los casos de prueba del repositorio como [prueba_valida.txt](prueba_valida.txt)
-4. **Observa el resultado:** Una vez analizado el archivo, el programa mostrará en la terminal un resumen con:
+3. **Seleccionar el archivo:** Al iniciarse, se abrirá una ventana emergente solicitando seleccionar un archivo de texto (`.txt`) que contenga los datos de entrada (conjunto de bloques while sintácticamente correctos). Se pueden usar los casos de prueba del repositorio como [prueba_valida.txt](prueba_valida.txt)
+4. **Observar el resultado:** Una vez analizado el archivo, el programa mostrará en la terminal un resumen con:
     - Número de total de while's declarados
     - Número total de variables usadas
     - Variables utilizadas en las expresiones lógicas
