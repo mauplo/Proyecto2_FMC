@@ -7,7 +7,7 @@ El siguiente programa es un reconocedor de enunciados while bien formados en Kot
 - **Identificar bloques while:** Detecta y cuenta bloques while con operadores `<, >, ==, >=, <=, !=`, variables de un caracter `[a-z]` y constantes de un dígito `[0-9]`
 - **Recuperar variables:** Hace un listado de las variables utilizadas en las expresiones lógicas.
 - **Generar estadísticas:** Se imprime un conteo de la cantidad de whiles y los comparadores lógicos usados.
-- **Rechazar bloques inválidos:** Cuando el archivo de texto revisado tiene bloques inválidos, imprime un mensaje de rechazo.
+- **Bloques inválidos:** Cuando el archivo de texto revisado tiene bloques inválidos, imprime un mensaje de rechazo.
 
 ## Características Principales
 
