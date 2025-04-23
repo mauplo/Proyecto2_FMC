@@ -30,7 +30,7 @@ El siguiente programa es un reconocedor de enunciados while bien formados en Kot
     ```
    (Si no sirve ese comando, intentar: python3 --version)
 
-2. **Compruebar Tkinter:** Ejecutar el siguiente comando para confirmar que Tkinter está disponible:
+2. **Comproebar Tkinter:** Ejecutar el siguiente comando para confirmar que Tkinter está disponible:
     ```bash
     python -m tkinter
     ```
