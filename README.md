@@ -34,12 +34,14 @@ El siguiente programa es un reconocedor de enunciados while bien formados en Kot
 
 ## Cómo Ejecutarlo
 
+Asegúrate de descargar el archivo [main.py](main.py). Tenlo bien localizado y si es más útil renómbralo (ej. clasificador.py)
+
 1. **Abre la terminal:** Navega hasta el directorio donde se encuentra el archivo del programa (por ejemplo, `clasificador.py`).
 2. **Ejecuta el programa:** Ingresa el siguiente comando en la terminal:
     ```bash
     python clasificador.py
     ```
-3. **Selecciona el archivo:** Al iniciarse, se abrirá una ventana emergente solicitando seleccionar un archivo de texto (`.txt`) que contenga los datos de entrada (conjunto de bloques while sintácticamente correctos). Puedes usar el archivo `prueba_valida.txt` del repositorio (zip)
+3. **Selecciona el archivo:** Al iniciarse, se abrirá una ventana emergente solicitando seleccionar un archivo de texto (`.txt`) que contenga los datos de entrada (conjunto de bloques while sintácticamente correctos). Puedes usar el archivo [prueba_valida.txt](prueba_valida.txt) del repositorio (zip)
 4. **Observa el resultado:** Una vez analizado el archivo, el programa mostrará en la terminal un resumen con:
     - Número de total de while's declarados
     - Número total de variables usadas
@@ -125,7 +127,7 @@ Conteo de comparadores lógicos usados:
 ```
 
 ### Ejemplo 2
-**Prueba NO válida**:
+[prueba_invalida.txt](prueba_invalida.txt)
 Ejemplo donde falta un corchete que se abre en el primer while 
 
 **Entrada Kotlin:**
