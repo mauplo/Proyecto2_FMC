@@ -133,23 +133,16 @@ Conteo de comparadores lógicos usados:
 
 ### Ejemplo 2
 [prueba_invalida.txt](prueba_invalida.txt)
-Ejemplo donde falta un corchete que se abre en el primer while 
 
 **Entrada Kotlin:**
 ```kotlin
-while (x < y) 
+while (x < 1)
 
-    while (4 == 2) {
+    while (4 = 2) {
 
-        while (z > a) {
+        while (z > a)
 
-        }
-
-        while (b == d) {
-
-        }
-
-    }
+            while (1 > 1) { }
 
 }
 
