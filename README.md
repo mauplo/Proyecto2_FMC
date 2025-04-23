@@ -49,7 +49,7 @@ El siguiente programa es un reconocedor de enunciados while bien formados en Kot
 ## Ejemplos de Ejecución
 
 ### Ejemplo 1
-**Prueba válida:**
+[prueba_valida.txt](prueba_valida.txt)
 
 **Entrada Kotlin:**
 ```kotlin
