@@ -5,9 +5,9 @@
 El siguiente programa es un reconocedor de enunciados while bien formados en Kotlin. Está diseñado para:
 
 - **Identificar bloques while:** Detecta y cuenta bloques while con operadores `<, >, ==, >=, <=, !=`, variables de un caracter `[a-z]` y constantes de un dígito `[0-9]`
-- **Clasificar:**
-- **Generar estadísticas:**
-- **Rechazar bloques inválidos:**
+- **Clasificar.**
+- **Generar estadísticas.**
+- **Rechazar bloques inválidos.**
 
 ## Características Principales
 
@@ -189,8 +189,9 @@ Dado que se utiliza Tkinter para la selección de archivos, el programa está op
 Actualmente, el programa se enfoca en bloques de while relativamente simples. Para proyectos más complejos, se podrían implementar mejoras para reconocer y guardar los bloques de while aun cuando el archivo tenga comentarios o instrucciones dentro de las llaves `{}`. Asimismo, sería importante poder recibir nombres de variables más largos y constantes más grandes. 
 
 # Autores 
-- Axel Castro Lara – 204092
-- Mauricia Peña López Ostolaza – 205688
-- Emilio González Acosta – 207911
 - Luis Fernando Rodríguez Retama – 208047
+- Mauricia Peña López Ostolaza – 205688
+- Axel Castro Lara – 204092
 - Rafael Harry Gomar Dawson – 208999
+- Emilio González Acosta – 207911
+
