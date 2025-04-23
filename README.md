@@ -82,53 +82,27 @@ while (x <= z) {
 
 while (a > b) {
 
-    while (f != 5) {
+ while (f != 5) {
 
-    }
-
-}
-
-while (3 >= 2) {}
-
-while (c != d) {
-}
-
-while (m <= n) {
-
-}
-
-while (1 < x) {
-
-}
-
-while (y >= 0) {
-
-}
-
-while (g == h) {
-
-}
-
-while (k != 9) {
+ }
 
 }
 ```
 **Salida:**
 ```
-Número de while's declarados: 14
+Número de while's declarados: 7
 
-Número total de variables usadas: 13
+Número total de variables usadas: 7
 
 Variables utilizadas en las expresiones lógicas:
-        a b c d f g h k m n x y z
+        a b d f x y z
 
 Conteo de comparadores lógicos usados:
-        <       2
-        ==      3
+        <       1
+        ==      2
         >       2
-        <=      2
-        !=      3
-        >=      2
+        <=      1
+        !=      1
 ```
 
 ### Ejemplo 2
